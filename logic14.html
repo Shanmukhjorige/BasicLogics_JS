@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logic 1</title>
+    <link rel="stylesheet" href="logic1.css" />
+  </head>
+  <body>
+    <nav>
+      <img class="logo" src="assests/icons8-brain-100.png" alt="logo" />
+      <p>Welcome to the 16 Logic Buildings!!!</p>
+      <a href="index.html"
+        ><img class="logo" src="assests/icons8-home-48.png" alt="icon"
+      /></a>
+    </nav>
+    <img class="hpic" src="assests/headerpic.png" alt="Headrer" />
+    <main>
+      <div class="card14">
+        <h2 class="heading14">Gross salary using Basic Salary, HRA & DA</h2>
+        <div class="input">
+          <input
+            class="i14"
+            type="number"
+            id="basicSalary"
+            placeholder="Basic Salary"
+          />
+          <input class="i14" type="number" id="hra" placeholder="HRA" />
+          <input class="i14" type="number" id="da" placeholder="DA" />
+        </div>
+        <div class="result14" id="salaryResult"></div>
+        <button onclick="grossSalary()">Calculate Gross Salary</button>
+      </div>
+    </main>
+    <script src="logic1.js"></script>
+  </body>
+</html>
